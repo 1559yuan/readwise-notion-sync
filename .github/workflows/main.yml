@@ -2,9 +2,8 @@ name: Sync Readwise to Notion
 
 on:
   schedule:
-    - cron: '0 2 * * *'
-
-  workflow_dispatch:
+    - cron: '0 2 * * *'  # 每天 2 点运行一次
+  workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
   sync:
