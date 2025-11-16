@@ -3,9 +3,9 @@ import { Client } from '@notionhq/client';
 import 'dotenv/config';
 
 // 环境变量
-const READWISE_TOKEN = process.env.READWISE_TOKEN;
-const NOTION_TOKEN = process.env.NOTION_TOKEN;
-const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID;
+const READWISE_TOKEN = process.env.agNE7nwe84aWO6LLSXqkFeNoXaC3lsHArBAXcmz1JU8JchSa02;
+const NOTION_TOKEN = process.env.agNE7nwe84aWO6LLSXqkFeNoXaC3lsHArBAXcmz1JU8JchSa02;
+const NOTION_DATABASE_ID = process.env.2a83f8ef232f8026bc36f64d96b615f2;
 
 if (!READWISE_TOKEN || !NOTION_TOKEN || !NOTION_DATABASE_ID) {
   console.error('[配置错误] 请设置环境变量: READWISE_TOKEN, NOTION_TOKEN, NOTION_DATABASE_ID');
