@@ -5,6 +5,8 @@ import dotenv from 'dotenv';
 // 显式加载 .env 文件
 dotenv.config();
 
+console.log(process.env.TEST_VARIABLE);  // 如果输出 "hello"，表示 .env 文件加载成功
+
 // 环境变量
 const READWISE_TOKEN = process.env.READWISE_TOKEN;
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
