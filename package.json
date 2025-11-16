@@ -1,0 +1,11 @@
+{
+  "name": "readwise-notion-sync",
+  "version": "1.0.0",
+  "description": "Sync Readwise highlights to Notion",
+  "main": "sync.js",
+  "dependencies": {
+    "@notionhq/client": "^2.2.13",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5"
+  }
+}
