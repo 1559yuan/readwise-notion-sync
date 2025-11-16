@@ -1,6 +1,9 @@
 import axios from 'axios';
 import { Client } from '@notionhq/client';
-import 'dotenv/config';
+import dotenv from 'dotenv';
+
+// 显式加载 .env 文件
+dotenv.config();
 
 // 环境变量
 const READWISE_TOKEN = process.env.READWISE_TOKEN;
