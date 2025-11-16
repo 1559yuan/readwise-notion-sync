@@ -10,6 +10,7 @@ const READWISE_TOKEN = process.env.READWISE_TOKEN;
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID;
 
+// 检查环境变量是否存在
 if (!READWISE_TOKEN || !NOTION_TOKEN || !NOTION_DATABASE_ID) {
   console.error('[配置错误] 请设置环境变量: READWISE_TOKEN, NOTION_TOKEN, NOTION_DATABASE_ID');
   process.exit(1);
