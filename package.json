@@ -1,6 +1,7 @@
 {
   "name": "readwise-notion-sync",
   "version": "1.0.0",
+  "type": "module",
   "description": "Sync Readwise highlights to Notion",
   "main": "sync.js",
   "dependencies": {
